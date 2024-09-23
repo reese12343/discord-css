@@ -1,0 +1,582 @@
+/* Reese's CSS file */
+
+/* mention color scheme */
+.message_d5deea.mentioned_d5deea{
+    background: linear-gradient(135deg,rgba(255,0,0,0.4) 0%,rgba(255,255,0,0.4) 20%,rgba(0,255,0,0.4) 40%,rgba(0,255,255,0.4) 60%,rgba(0,0,255,0.4) 80%,rgba(255,0,0,0.4) 100%) !important;
+}
+
+/* start of who the fuck knows section 
+
+.content-3spvdd{
+	color: black;
+}
+
+.divider-IqmEqJ{
+	background-color: black;
+}
+
+.mention{
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.userPopout-2j1gM4{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.backdrop-2ByYRN.withLayer-2VVmpp{
+    opacity: .3!important;
+}
+
+.wrapper-z5ab_q {
+    position: relative	!important;
+    width: 8px	!important;
+    height: 48px	!important;
+    align-items: center	!important;
+}
+
+.item-2LIpTv {
+    display: block	!important;
+    width: 2px	!important;
+	height: 6px	!important;
+	position: relative	!important;
+    border-radius: 0 4px 4px 0	!important;
+    margin-left: -4px	!important;
+    background-color: white	!important;
+	transform: none	!important;
+	border-color: white	!important;
+}
+
+.wrapper-28eC3z {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.container-2ebMPP, .header-145e10 {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.messagesPopout-eVzQcI.scroller-MIi2ab.thin-31rlnD.scrollerBase-_bVAAt {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.recentMentionsPopout-2bI1ZN.messagesPopoutWrap-3zryHW {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.channelHeader-DFRX8q {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.messageContainer-3VTXBC {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.messages-23can0 {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.root-g14mjS, .content-2hZxGK, .header-1sd0RU, .card-8UsK4b, #MsgLogger {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper-2RrXDg {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.messagesPopoutWrap-3zryHW, .footer-5ji8u1, .header-1w9Q93 {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.wrapper--nA0oy {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+}
+
+.button-1zW0-r, .messageGroupWrapper-1jf_7C {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+}
+
+/* end of who the fuck knows section */
+
+/* send gift icon */
+[aria-label="Send a gift"] {
+	display: none;
+	visibility: hidden;
+}
+
+/* hide silent typing button */
+[aria-label="Disable Silent Typing"] {
+	display: none;
+	visibility: hidden;
+}
+
+/* watermark */
+.wordmarkWindows_a934d8.wordmark_a934d8 {
+	visibility: hidden;
+}
+
+/* channel header and tool bar */
+.children_e44302, .toolbar_e44302, .theme-dark .children_e44302:after, .title_a7d72e.container_e44302, .theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPy, .theme-dark.container_e44302.themed_e44302 {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+}
+
+/*removed activities button above text box*/
+[class*=channelAppLauncher_] {
+  display: none;
+}
+
+/* main channel textbox pos */
+.channelTextArea_a7d72e {
+	margin-bottom: 5px;
+}
+
+/* who's chatting status box */
+.typing_d7ebeb {
+	position: absolute;
+	margin: 52px;
+	margin-left: 1px;
+}
+
+/* Make Delete/Logout Buttons Red */
+[class^=item_][data-tab-id="DELETE"],
+[class^=item_][data-tab-id="logout"] {
+    color: var(--info-danger-foreground) !important;
+}
+[class^=item_][data-tab-id="DELETE"]:hover,
+[class^=item_][data-tab-id="logout"]:hover {
+    background-color: var(--info-danger-background) !important;
+}
+
+/* Remove the Create Invite button from Channel Lists */
+[class^="iconVisibility_"] [aria-label="Create Invite"] {
+    display: none !important;
+}
+
+/* create a list of dark role colors here */
+[style^="color: rgb(5, 0, 5);"] /* color chan black */ {
+    [class*=username_]& {
+        [id^=chat-messages]:hover &, /* chat messages */
+        [class^=member_]:hover &, /* members list */
+        [class^=membersGroup_]:hover &  /* members list headers (RoleColorEverywhere plugin) */ {
+            color: var(--text-normal) !important;
+        }
+    }
+    .mention&:hover /* mentions */,
+    [class^=channelTextArea_] [class^=wrapper_]&:hover /* mentions in chat bar */ {
+        color: var(--text-normal) !important;
+        background-color: color-mix(in srgb, var(--text-normal) 20%, transparent) !important;
+    }
+}
+
+/* Remove Settings Ads */
+div.side_a0 > div.item_a0[data-tab-id="Discord Nitro"] {
+  display: none !important;
+}
+div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
+  display: none !important;
+}
+
+/* Match Activity Buttons Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=activityBiteSizePopout_] button,
+.custom-profile-theme [class^=activitySimplifiedProfile_] button {
+  background-color: var(--profile-gradient-button-color)!important;
+}
+
+/* Match Status Bubble color with Profile Primary Color */
+.custom-profile-theme [class^=statusBubble_] {
+  background-color: var(--profile-gradient-primary-color);
+}
+.custom-profile-theme [class^=statusBubbleOuter_]:before {
+  background-color: var(--profile-gradient-primary-color);
+}
+.custom-profile-theme [class^=statusBubbleOuter_]:after {
+  background-color: var(--profile-gradient-primary-color);
+}
+
+
+
+
+/* oneko skins */
+#oneko { background-image: url("https://raw.githubusercontent.com/coolesding/onekocord/main/skins/fox.png") !important}
+.welcomeCTASticker_f6dde0>.assetWrapper_cb3343 /*Welcome cta <3*/{
+  display: none;
+}
+
+/*Add oneko*/
+.attachButtonInner_f298d4 {
+    visibility: hidden;
+}
+.attachButton_f298d4:before {
+	content: "";
+	background-image: var(--onekoattachmenticon-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/ghost.png));
+	animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekoattachmenticon-sleep-duration, 2s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-sleep-animation, sleep);
+	image-rendering: var(--onekoattachmenticon-rendering, pixelated);
+	width: 32px;
+	height: 32px;
+	margin: 10px;
+	margin-left: 1px;
+    position: absolute;
+	bottom: var(--onekoattachmenticon-position-bottom, 0px);
+	left: var(--onekoattachmenticon-position-left, 10px);
+	z-index: var(--onekoattachmenticon-z-index, 1);
+	scale: var(--onekoattachmenticon-scale, 1);
+}
+/*Wake oneko up on hover and start hover animation*/
+.attachButton_f298d4:hover:before {
+  animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards var(--onekoattachmenticon-wakeup-animation, wakeup), var(--onekoattachmenticon-hovered-duration, 0.3s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-hovered-animation, alert)
+}
+/*Wake oneko up when message bar is selected and start selected animation*/
+.attachButton_f298d4[aria-expanded="true"]:before {
+	animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards var(--onekoattachmenticon-wakeup-animation, wakeup), var(--onekoattachmenticon-selected-duration, 0.3s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-selected-animation, alert);
+}
+@keyframes sleep {
+	0%,
+	50% {
+		background-position: -64px 0;
+	}
+	50.00001%,
+	100% {
+		background-position: -64px -32px;
+	}
+}
+@keyframes alert {
+	0%,
+	50% {
+		background-position: -224px -96px;
+	}
+	50.00001%,
+	100% {
+		background-position: -96px -96px;
+	}
+}
+@keyframes runright {
+	0%,
+	50% {
+		background-position: -96px 0px;
+	}
+	50.00001%,
+	100% {
+		background-position: -96px -32px;
+	}
+}
+@keyframes runleft {
+	0%,
+	50% {
+		background-position: -128px -64px;
+	}
+	50.00001%,
+	100% {
+		background-position: -128px -96px;
+	}
+}
+@keyframes scratchright {
+	0%,
+	50% {
+		background-position: -64px -64px;
+	}
+	50.00001%,
+	100% {
+		background-position: -64px -96px;
+	}
+}
+@keyframes scratchleft {
+	0%,
+	50% {
+		background-position: -128px 0px;
+	}
+	50.00001%,
+	100% {
+		background-position: -128px -32px;
+	}
+}
+@keyframes scratchup {
+	0%,
+	50% {
+		background-position: 0 0;
+	}
+	50.00001%,
+	100% {
+		background-position: 0 -32px;
+	}
+}
+@keyframes scratchdown {
+	0%,
+	50% {
+		background-position: -224px -30px;
+	}
+	50.00001%,
+	100% {
+		background-position: -192px -62px;
+	}
+}
+@keyframes spinleft {
+	0%,
+	20% {
+		background-position: -96px -32px;
+	}
+	20.00001%,
+	40% {
+		background-position: -160px -64px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px -64px;
+	}
+	60.00001%,
+	80% {
+		background-position: -192px -32px;
+	}
+	80.00001%,
+	100% {
+		background-position: -128px -96px;
+	}
+}
+@keyframes spinright {
+	0%,
+	20% {
+		background-position: -128px -96px;
+	}
+	20.00001%,
+	40% {
+		background-position: -192px -32px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px -64px;
+	}
+	60.00001%,
+	80% {
+		background-position: -160px -64px;
+	}
+	80.00001%,
+	100% {
+		background-position: -96px -32px;
+	}
+}
+@keyframes wakeup {
+	0%,
+	20% {
+		background-position: -160px 0;
+	}
+	20.00001%,
+	40% {
+		background-position: -192px 0;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px 0;
+	}
+	60.00001%,
+	80% {
+		background-position: -96px -64px;
+	}
+	80.00001%,
+	100% {
+		background-position: -96px -96px;
+	}
+}
+@keyframes gotosleep {
+	0%,
+	20% {
+		background-position: -96px -96px;
+	}
+	20.00001%,
+	40% {
+		background-position: -96px -64px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px 0;
+	}
+	60.00001%,
+	80% {
+		background-position: -192px 0;
+	}
+	80.00001%,
+	100% {
+		background-position: -160px 0;
+	}
+}
+@keyframes messagebarwalk {
+    from {
+        left: calc(0% + var(--onekomessagebar-position-left, 10px));
+    }
+    to {
+        left: calc(100% - 32px*var(--onekomessagebar-scale, 1) - var(--onekomessagebar-position-left, 10px));
+    }
+}
+
+/*Add oneko above text bar*/
+.channelTextArea_a7d72e:before {
+	content: "";
+	background-image: var(--onekomessagebar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/mike.png));
+	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 2s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
+	image-rendering: var(--onekomessagebar-rendering, pixelated);
+	width: 32px;
+	height: 32px;
+  position: absolute;
+	top: var(--onekomessagebar-position-top, -30px);
+	left: var(--onekomessagebar-position-left, 10px);
+	z-index: var(--onekomessagebar-z-index, 1);
+	scale: var(--onekomessagebar-scale, 1);
+}
+/*Wake oneko up on hover and start hover animation*/
+.channelTextArea_a7d72e:hover:before {
+  animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-hovered-duration, 0.3s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-hovered-animation, alert)
+}
+/*Wake oneko up when message bar is selected and start selected animation*/
+.channelTextArea_a7d72e:has(:focus):before {
+	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-selected-duration, 0.3s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-selected-animation, alert);
+}
+:root {
+  --onekomessagebar-firststart-animation: gotosleep;
+  --onekomessagebar-firststart-duration: 2s;
+  --onekomessagebar-firststart-direction: reverse;
+
+  --onekomessagebar-firstwalk-animation: runright;
+  --onekomessagebar-firstwalk-duration: 6s;
+  --onekomessagebar-firstwalk-direction: normal;
+  --onekomessagebar-firstwalk-steps: 20;
+  --onekomessagebar-firstwalk-delay: var(--onekomessagebar-firststart-duration);
+
+  --onekomessagebar-firstarrival-animation: gotosleep;
+  --onekomessagebar-firstarrival-duration: 2s;
+  --onekomessagebar-firstarrival-delay: calc(var(--onekomessagebar-firstwalk-delay) + var(--onekomessagebar-firstwalk-duration));
+
+  --onekomessagebar-firstpause-animation: sleep;
+  --onekomessagebar-firstpause-duration: 1s;
+  --onekomessagebar-firstpause-delay: calc(var(--onekomessagebar-firstarrival-delay) + var(--onekomessagebar-firstarrival-duration));
+  --onekomessagebar-firstpause-halt: 3s;
+
+  --onekomessagebar-secondstart-animation: gotosleep;
+  --onekomessagebar-secondstart-duration: 2s;
+  --onekomessagebar-secondstart-direction: reverse;
+  --onekomessagebar-secondstart-delay: calc(var(--onekomessagebar-firstpause-delay) + var(--onekomessagebar-firstpause-duration) + var(--onekomessagebar-firstpause-halt, 3s));
+
+  --onekomessagebar-secondwalk-animation: runleft;
+  --onekomessagebar-secondwalk-duration: 6s;
+  --onekomessagebar-secondwalk-delay: calc(var(--onekomessagebar-secondstart-delay) + var(--onekomessagebar-secondstart-duration));
+  --onekomessagebar-secondwalk-steps: 20;
+  --onekomessagebar-secondwalk-direction: reverse;
+
+  --onekomessagebar-secondarrival-animation: gotosleep;
+  --onekomessagebar-secondarrival-duration: 2s;
+  --onekomessagebar-secondarrival-delay: calc(var(--onekomessagebar-secondwalk-delay) + var(--onekomessagebar-secondwalk-duration));
+
+  --onekomessagebar-secondpause-animation: sleep;
+  --onekomessagebar-secondpause-duration: 1s;
+  --onekomessagebar-secondpause-delay: calc(var(--onekomessagebar-secondarrival-delay) + var(--onekomessagebar-secondarrival-duration));
+}
+.channelTextArea_a7d72e:has(:focus):before  {
+--sleep-animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 1s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
+animation: var(--sleep-animation, var(--onekomessagebar-firststart-animation, gotosleep) var(--onekomessagebar-firststart-duration, 2s) var(--onekomessagebar-firststart-direction, reverse), messagebarwalk var(--onekomessagebar-firstwalk-duration, 6s) var(--onekomessagebar-firstwalk-delay, 2s) forwards linear var(--onekomessagebar-firstwalk-direction, normal), var(--onekomessagebar-firstwalk-animation, runright) calc(var(--onekomessagebar-firstwalk-duration)/var(--onekomessagebar-firstwalk-steps)) var(--onekomessagebar-firstwalk-steps) var(--onekomessagebar-firstwalk-delay), var(--onekomessagebar-firstarrival-animation, gotosleep) var(--onekomessagebar-firstarrival-duration, 2s) var(--onekomessagebar-firstarrival-delay) 1 forwards, var(--onekomessagebar-firstpause-animation, sleep) var(--onekomessagebar-firstpause-duration, 2s) var(--onekomessagebar-firstpause-delay) infinite, var(--onekomessagebar-secondstart-animation, gotosleep) var(--onekomessagebar-secondstart-duration, 2s) var(--onekomessagebar-secondstart-delay) var(--onekomessagebar-secondstart-direction, reverse), messagebarwalk var(--onekomessagebar-secondwalk-duration, 6s) var(--onekomessagebar-secondwalk-delay) var(--onekomessagebar-secondwalk-direction, reverse) linear forwards, runleft calc(var(--onekomessagebar-secondwalk-duration, 6s)/var(--onekomessagebar-secondwalk-steps, 20)) var(--onekomessagebar-secondwalk-delay) infinite, var(--onekomessagebar-secondarrival-animation, gotosleep) var(--onekomessagebar-secondarrival-duration, 2s) var(--onekomessagebar-secondarrival-delay), var(--onekomessagebar-secondpause-animation, sleep) var(--onekomessagebar-secondpause-duration, 2s) var(--onekomessagebar-secondpause-delay) infinite);
+}
+
+/*Hide orignal toolbox icon*/
+.vc-toolbox-btn>svg {
+    display: none;
+}
+/*Make toolbox container the correct size*/
+.vc-toolbox-btn {
+    width: 24px;
+    height: 24px;
+}
+/*Add oneko*/
+.vc-toolbox-btn:before {
+    content: "";
+    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/ace.png));
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekotoolbox-sleep-duration, 2s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-sleep-animation, sleep);
+    image-rendering: var(--onekotoolbox-rendering, pixelated);
+    width: 32px;
+    height: 32px;  
+    position: absolute;
+    bottom: -4px;
+    right: 0px;
+    transition: 0.2s ease;
+    opacity: 0.7;
+    scale: var(--onekotoolbox-scale, 1);
+}
+/*Wake oneko up and start hover animation on hover*/
+.vc-toolbox-btn:hover:before {
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekotoolbox-hovered-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-hovered-animation, alert);
+    opacity: 1;
+}
+/*Wake oneko up when selected and start selected animation */
+.vc-toolbox-btn.selected__1fc53:before{
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekotoolbox-wakeup-animation, wakeup), var(--onekotoolbox-selected-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-selected-animation, alert);
+    opacity: 1;
+}
+
+/*Hide orignal avatar*/
+.avatar_b2ca13>.svg_c51b4e {
+    display: none;
+}
+/*Add oneko*/
+.avatar_b2ca13:before {
+    content: "";
+    background: var(--onekoavatar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
+    animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekoavatar-sleep-duration, 2s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-sleep-animation, sleep);
+    image-rendering: var(--onekoavatar-rendering, pixelated);
+    width: 32px;
+    height: 32px;  
+    position: absolute;
+    transition: 0.2s ease;
+    scale: var(--onekoavatar-scale, 1);
+}
+/*Wake oneko up and start hover animation on hover*/
+.avatarWrapper_b2ca13:hover>.avatar_b2ca13:before {
+    animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekoavatar-hovered-duration, 0.3s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-hovered-animation, alert);
+    opacity: 1;
+}
+/*Wake oneko up when opened profile animation */
+[aria-controls]>.avatar_b2ca13:before {
+    animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards var(--onekoavatar-wakeup-animation, wakeup), var(--onekoavatar-selected-duration, 0.3s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-selected-animation, alert);
+    opacity: 1;
+}
+
+/*Add oneko*/
+.barInMultiLine_aa267a {
+    display: flex;
+}
+.barInMultiLine_aa267a:after {
+    content: "";
+    background-image: var(--onekoprogressbar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
+    width: 32px;
+    animation: var(--onekoprogressbar-duration, 0.3s) infinite var(--onekoprogressbar-animation, runright);
+    height: 32px;
+    top: -28px;
+    left: -16px;
+    position: relative;
+    image-rendering: var(--onekoprogressbar-rendering, pixelated);
+}
+
+.class1, .class2, .class3, #id1 { property: value; }
