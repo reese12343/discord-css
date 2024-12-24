@@ -102,6 +102,19 @@ div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
   background-color: var(--profile-gradient-primary-color);
 }
 
+/*hide nitro stuff*/
+[class^=modalRoot] /* Allow the modal stuff that open when you preview a code block to be larger */ {
+    max-width: unset !important; /* allow it to be larger */
+    margin: 0 40px !important; /* still limit it */ }
+
+[data-list-item-id*="_get-premium"] {
+  display: none;
+}
+[class*="menuDivider_"]:has(+[data-list-item-id*="_get-premium"])
+ {
+  display: none;
+}
+
 
 
 
