@@ -114,6 +114,10 @@ div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
  {
   display: none;
 }
+[class*="upsellContainer_"]
+    {
+        display: none;
+    }
 
 
 
