@@ -119,7 +119,10 @@ div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
         display: none;
     }
 
-
+/*User area transparency*/
+[class^="panels_"] [class^="container_"] {
+    background: rgba(0, 0, 0, 0) !important;
+    }
 
 
 /* oneko skins */
